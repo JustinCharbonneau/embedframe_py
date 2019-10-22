@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: generate-embedding
+Version: 0.1
+Summary: Simple library to clean pandas text columns
+Home-page: https://github.com/justincharbonneau/generate-embedding
+Author: Justin Charbonneau
+Author-email: justin.m.charbonneau@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
