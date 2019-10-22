@@ -1,4 +1,4 @@
-# generate-embedding
+# embedframe
 High level package for cleaning text and generating word embeddings
 
 run this line in the command line:
