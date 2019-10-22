@@ -2,6 +2,7 @@
   <dictionary name="justin">
     <words>
       <w>embedframe</w>
+      <w>lemmatizer</w>
       <w>tknzr</w>
     </words>
   </dictionary>
