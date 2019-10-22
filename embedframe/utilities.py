@@ -35,11 +35,11 @@ def clean_words(column, remove_stopwords=False, column_header=False):
     return all_words
 
 
-def generate_embedding(text_array, return_kv=True, size=100):
+def generate_embedding(text_array, return_kv=True, size=100, min_count=1):
 
-    #assert gensim.models.word2vec.FAST_VERSION > -1, 'not fast version'
+    # assert gensim.models.word2vec.FAST_VERSION > -1, 'not fast version'
 
-    word2vec_model = gensim.models.Word2Vec(text_array, size=size, window=5, min_count=1, workers=10, iter=5)
+    word2vec_model = gensim.models.Word2Vec(text_array, size=size, window=5, min_count=min_count, workers=10, iter=5)
 
     if return_kv:
         return word2vec_model.wv

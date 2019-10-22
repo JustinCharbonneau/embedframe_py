@@ -1,13 +1,19 @@
 # generate-embedding
 High level package for cleaning text and generating word embeddings
 
-run code using:
+run this line in the command line:
 
 ```
-$ pip install git+https://github.com/justincharbonneau/generate-embedding
+$ pip install git+https://github.com/justincharbonneau/embedframe_py
 ```
 
-If you have cloned the repo, to run tests:
+to import, run this line in your python code:
+
+```
+from embedframe import utilities
+```
+
+to run tests, clone the repo and navigate to the project directory. Then, run this line:
 
 ```
 $ python setup.py test
