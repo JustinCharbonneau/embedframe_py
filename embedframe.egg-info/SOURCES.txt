@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+embedframe.egg-info/PKG-INFO
+embedframe.egg-info/SOURCES.txt
+embedframe.egg-info/dependency_links.txt
+embedframe.egg-info/not-zip-safe
+embedframe.egg-info/requires.txt
+embedframe.egg-info/top_level.txt

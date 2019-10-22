@@ -1,5 +1,5 @@
 Metadata-Version: 1.0
-Name: generate-embedding
+Name: embedframe
 Version: 0.1
 Summary: Simple library to clean pandas text columns
 Home-page: https://github.com/justincharbonneau/generate-embedding

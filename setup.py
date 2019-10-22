@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='generate_embedding',
+setup(name='embedframe',
       version='0.1',
       description='Simple library to clean pandas text columns',
       url='https://github.com/justincharbonneau/generate-embedding',
